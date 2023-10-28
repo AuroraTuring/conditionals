@@ -5,12 +5,12 @@
 
 age = 31 
 
-if age = x3 
-  print "Fizz"
-elsif age = x5 
-  print "Buzz"
-elsif age = x3 && age = x5 
+if age % 3 == 0 && age % 5 == 0
   print "FizzBuzz"
+elsif age % 3 == 0
+  print "Fizz"
+elsif age % 5 == 0
+  print "Buzz"
 else
   print age
 end
