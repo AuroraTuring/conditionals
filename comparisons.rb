@@ -60,21 +60,21 @@ puts "Is number_students less than or equal to 21?" number_students <= 21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+# YOU DO: Checks if 4 is less than 9. The printed result will evaluate as True. 
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: Assigns the value 3 to the variable books. Checks if 4 is less than the number of books (which is 3). The printed result will evaluate as False. 
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: Assigns the value 6 to the variable friends. Assigns the value 2 to the variable siblings. Checks if the number of friends (6) is greater than the number of siblings (2). The printed result will evaluate as True.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: Assigns the value 9 to the variable attendees. Assigns the value 8 to the variable meals. Checks if the number of attendees is not equal to the number of meals. The printed result will evaluate as True. 
 
 
 #-------------------
@@ -97,15 +97,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age <= 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: True. The value true is assigned to the variable loves_to_play, making that true. Puppies are 1 year or younger, and the value 1 is assigned to the variable age, so doggo is a pupper.
