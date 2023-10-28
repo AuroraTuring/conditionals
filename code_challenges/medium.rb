@@ -18,4 +18,8 @@ age = 24
 
 if good_driving_record = true && age >= 25 
   puts "You get a discount on your car rental!" 
-elsif 
+elsif good_driving_record = true || age >= 25 
+  puts "You pay full price on your car rental."
+else age < 25 && good_driving_record = false 
+  puts "You need to have someone else sign for your car rental."
+end 
