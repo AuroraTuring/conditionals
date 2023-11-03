@@ -15,3 +15,12 @@ else
   print age
 end
 
+if age / 3 == integer && age / 5 == integer
+  print "FizzBuzz"
+elsif age / 3 == integer 
+  print "Fizz"
+elsif age / 5 == integer 
+  print "Buzz"
+else 
+  print age
+end
